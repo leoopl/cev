@@ -1,3 +1,4 @@
+"use client";
 import React, { useEffect, useRef, useCallback } from "react";
 import type { Particle, Position } from "./types";
 

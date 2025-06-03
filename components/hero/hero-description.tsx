@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import { Users, Heart, Brain, Sparkles, Calendar, MapPin } from "lucide-react";
 import type { ValueItem } from "./types";
