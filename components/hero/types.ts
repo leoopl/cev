@@ -1,0 +1,27 @@
+export interface Position {
+  x: number;
+  y: number;
+}
+
+export interface Particle {
+  x: number;
+  y: number;
+  vx: number;
+  vy: number;
+  size: number;
+  opacity: number;
+}
+
+export interface SpeakerData {
+  id: string;
+  name: string;
+  title: string;
+  image?: string;
+  speciality?: string;
+}
+
+export interface ValueItem {
+  icon: React.ComponentType<{ className?: string }>;
+  text: string;
+  description: string;
+}
