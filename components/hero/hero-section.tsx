@@ -2,7 +2,7 @@
 import React, { useEffect } from "react";
 import { ConnectionNetwork } from "./connection-network";
 import { HeroContent } from "./hero-content";
-import { StarField } from "./star-field";
+import { BrainField } from "./brain-field";
 
 const HeroSection: React.FC = () => {
   useEffect(() => {
@@ -31,7 +31,7 @@ const HeroSection: React.FC = () => {
 
       {/* Floating stars decoration */}
       <div className="absolute inset-0">
-        <StarField />
+        <BrainField />
       </div>
 
       {/* Noise texture overlay */}

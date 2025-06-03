@@ -1,6 +1,5 @@
 "use client";
 import React, { useState, useEffect } from "react";
-import { Brain } from "lucide-react";
 
 export const HeroHeading: React.FC = () => {
   const [displayText, setDisplayText] = useState("");
@@ -31,7 +30,6 @@ export const HeroHeading: React.FC = () => {
   return (
     <div className="space-y-4 animate-fade-in-up">
       <div className="flex items-center gap-2 text-white/80">
-        <Brain className="w-5 h-5 animate-pulse" />
         <span className="text-sm font-medium tracking-wider uppercase">
           Psicologia Baseada em Evidências
         </span>
