@@ -15,7 +15,7 @@ export interface Particle {
 export interface SpeakerData {
   id: string;
   name: string;
-  title: string;
+  state: string;
   image?: string;
   speciality?: string;
 }

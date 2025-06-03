@@ -51,16 +51,16 @@ export const HeroDescription: React.FC = () => {
       </div>
 
       <div className="flex flex-col sm:flex-row gap-4 text-white/80">
-        <div className="flex items-center gap-2 group cursor-pointer">
-          <Calendar className="w-5 h-5 group-hover:text-white transition-colors" />
+        <div className="flex items-center gap-2 group">
+          <Calendar className="size-5 group-hover:text-white transition-colors" />
           <span className="group-hover:text-white transition-colors">
-            24-26 de Julho, 2025
+            14-16 de Agosto, 2025
           </span>
         </div>
-        <div className="flex items-center gap-2 group cursor-pointer">
-          <MapPin className="w-5 h-5 group-hover:text-white transition-colors" />
+        <div className="flex items-center gap-2 group">
+          <MapPin className="size-5 group-hover:text-white transition-colors" />
           <span className="group-hover:text-white transition-colors">
-            Maceió, Alagoas, Brasil
+            Centro Cultural do Cesmac, Maceió - AL
           </span>
         </div>
       </div>

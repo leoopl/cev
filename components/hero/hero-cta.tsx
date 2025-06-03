@@ -21,7 +21,7 @@ export const HeroCTA: React.FC = () => {
       <Button
         onClick={handlePrimaryClick}
         disabled={isLoading}
-        className="btn-gradient group flex items-center justify-center gap-2 px-8 py-4 text-lg font-medium rounded-full transform transition-all duration-300 hover:scale-105 hover:shadow-gradient-cev-lg disabled:opacity-70 disabled:cursor-not-allowed"
+        className="btn-gradient px-15 py-7 rounded-lg text-lg font-medium text-white w-2xs hover:text-black"
         aria-label="Inscrever-se no congresso"
       >
         {isLoading ? (
@@ -32,13 +32,13 @@ export const HeroCTA: React.FC = () => {
         ) : (
           <>
             <span>Inscreva-se Agora</span>
-            <ChevronRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
+            <ChevronRight className="size-4 mt-0.5 group-hover:translate-x-1 transition-transform" />
           </>
         )}
       </Button>
 
       <Button
-        className="btn-gradient-outline flex items-center justify-center px-8 py-4 text-lg font-medium rounded-full transform transition-all duration-300 hover:scale-105"
+        className="btn-gradient-outline px-15 py-7 rounded-lg text-lg font-medium text-white w-2xs hover:text-black transform transition-all duration-300 hover:scale-105 hover:shadow-lg"
         aria-label="Mais informações sobre o congresso"
       >
         Saiba Mais
