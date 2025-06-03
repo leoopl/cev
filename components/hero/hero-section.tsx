@@ -1,3 +1,4 @@
+"use client";
 import React, { useEffect } from "react";
 import { ConnectionNetwork } from "./connection-network";
 import { HeroContent } from "./hero-content";
