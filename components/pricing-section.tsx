@@ -6,6 +6,7 @@ import { Button } from "./ui/button";
 import { Carousel, CarouselContent, CarouselItem } from "./ui/carousel";
 import Autoplay from "embla-carousel-autoplay";
 import { Check, Users } from "lucide-react";
+import { CEVLogo } from "./cev-logo";
 
 interface PricingPhoto {
   src: string;
@@ -140,20 +141,6 @@ const PricingCard = () => (
   </div>
 );
 
-const LogoSection = () => (
-  <div className="flex justify-center">
-    <div className="relative w-32 h-32 md:w-40 md:h-40 lg:w-48 lg:h-48">
-      <Image
-        src="/logo.png"
-        alt="CEV Educacional Logo"
-        fill
-        className="object-contain drop-shadow-lg"
-        sizes="(max-width: 768px) 128px, (max-width: 1024px) 160px, 192px"
-      />
-    </div>
-  </div>
-);
-
 export default function PricingSection() {
   return (
     <section className="py-16 md:py-24 w-full overflow-hidden bg-gradient-to-b from-transparent to-black/20">
@@ -165,8 +152,8 @@ export default function PricingSection() {
           </div>
 
           {/* Right Column - Carousel & Logo */}
-          <div className="flex flex-col justify-center space-y-8">
-            <div className="flex flex-col sm:flex-row items-center gap-2 group font-montserrat lg:ml-25 text-base text-white sm:text-lg md:text-xl">
+          <div className="flex flex-col justify-center items-center space-y-8">
+            <div className="flex flex-col sm:flex-row items-center gap-2 group font-montserrat text-base text-white sm:text-lg md:text-xl">
               <p className="font-montserrat text-sm font-medium uppercase tracking-wide text-white sm:text-base md:text-lg">
                 PSICOLOGIA BASEADA EM EVIDÊNCIAS |
               </p>
@@ -181,7 +168,7 @@ export default function PricingSection() {
             </div>
 
             <PricingCarousel />
-            <LogoSection />
+            <CEVLogo className="size-40 md:size-50 lg:size-60" />
           </div>
         </div>
       </div>

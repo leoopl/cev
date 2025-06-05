@@ -10,6 +10,7 @@ import {
 import Autoplay from "embla-carousel-autoplay";
 import { cn } from "@/lib/utils";
 import React from "react";
+import { CEVLogo } from "./cev-logo";
 
 interface SpeakerData {
   id: string;
@@ -35,7 +36,7 @@ const speakers: SpeakerData[] = [
     state: "Minas Gerais",
     description:
       "Psicóloga, Doutora e Mestre em Saúde pela Universidade Federal de Juiz de Fora, Certificada por Harvard e por Cambridge no tratamento de casais, Especialista em Políticas e Pesquisas em Saúde Coletiva (UFJF), especialista em Terapia Cognitivo Comportamental pela Faculdade Redentor. Fundadora do Grupo Casule (casule.com) e do canal @Casule no youtube. Mentora da Formação em Terapeutas de Casais e Terapeutas de Relacionamentos e Fundadora da maior comunidade de Terapeutas de Relacionamentos do Brasil (TERA).",
-    image: "/wilson.png",
+    image: "/cris.png",
   },
   {
     id: "3",
@@ -51,7 +52,7 @@ const speakers: SpeakerData[] = [
     state: "Minas Gerais",
     description:
       "Psicóloga, formada pela PUC Minas, professora e escritora. Mestre em cognição e comportamento pela Universidade Federal de Minas Gerais, Especialista em Terapia Cognitivo Comportamental pelo ITC, SP, Formada em Terapia de Esquemas pela Wainer Psicologia Cognitiva, e certificada pelo Gottman Institute Method of Couple's Therapy, Estados Unidos, atua com adultos, casais e famílias. Atualmente coordena os projetos Mentes Funcionais (@mentesfuncionais) e Casais Funcionais (@casaisfuncionais), e se dedica a levar terapia para todas as pessoas. É Facilitadora de grupos de estudos, supervisora clínica, workshops e palestras voltadas á temas de saúde emocional nas relações interpessoais e conjugais.",
-    image: "/wilson.png",
+    image: "/renata.png",
   },
   {
     id: "5",
@@ -59,7 +60,7 @@ const speakers: SpeakerData[] = [
     state: "Rio Grande do Sul",
     description:
       "Cris Manfro é psicóloga, terapeuta de casais e mentora de relacionamentos. Já atuou como supervisora em diversos cursos de especialização. E hoje é a maior referência do país em Crises no Casamento. Nos últimos 35 anos, ela orientou centenas de casais a superarem graves crises no casamento por diversos motivos, como por exemplo: traição, insegurança e ciúmes, falta de diálogo, falta de conexão, brigas, rotina, filhos, conflitos de família e problemas financeiros. Cris se considera uma fiel defensora dos relacionamentos. E acredita que pequenos ajustes nas crenças e rotinas do casal podem ser responsáveis por mudanças incríveis.",
-    image: "/wilson.png",
+    image: "/manfro.png",
   },
   {
     id: "6",
@@ -67,7 +68,7 @@ const speakers: SpeakerData[] = [
     state: "Alagoas",
     description:
       "Coordenadora do CEV Educacional, treinadora de psicólogos em todo o Brasil. Autora de 'Psicologia Baseada em Evidências para Relacionamentos', coautora da ferramenta de Habilidades em DBT. Core Skills em EFT para Casais pelo ICEEFT no Canadá. Mestrado em Psicologia da Saúde em andamento.",
-    image: "/wilson.png",
+    image: "/amelia.png",
   },
   {
     id: "7",
@@ -75,7 +76,7 @@ const speakers: SpeakerData[] = [
     state: "Alagoas",
     description:
       "Psicólogo Clínico com vasta experiência em Terapia Cognitivo-Comportamental e Neuropsicologia, focado no tratamento de transtornos de ansiedade, depressão e no desenvolvimento de estratégias para o bem-estar emocional.",
-    image: "/wilson.png",
+    image: "/naves.png",
   },
   {
     id: "8",
@@ -119,15 +120,7 @@ const SpeakerCard = ({ speaker }: { speaker: SpeakerData }) => {
         </div>
 
         {/* CEV Logo in bottom right */}
-        <div className="absolute size-30 md:size-50 bottom-0.5 right-8">
-          <Image
-            src={"/logo.png"}
-            alt="CEV Logo"
-            fill
-            className="object-contain"
-            sizes="(max-width: 640px) 100vw, (max-width: 768px) 100vw, (max-width: 1024px) 100vw, 1200px"
-          />
-        </div>
+        <CEVLogo className="absolute size-30 md:size-50 bottom-0.5 right-8" />
 
         {/* State badge in top right */}
         {/* <div className="absolute top-6 right-6 md:top-8 md:right-8">

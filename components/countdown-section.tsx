@@ -1,8 +1,8 @@
 "use client";
 import { useEffect, useState } from "react";
 import { Button } from "./ui/button";
-import Image from "next/image";
 import Link from "next/link";
+import { CEVLogo } from "./cev-logo";
 
 const TARGET_DATE = new Date(new Date().getFullYear(), 5, 7, 0, 0, 0); // June is month 5 (0-indexed)
 
@@ -35,20 +35,6 @@ function calculateTimeLeft(targetDate: Date): TimeLeft {
   }
   return timeLeft;
 }
-
-const LogoSection = () => (
-  <div className="flex justify-center">
-    <div className="relative w-32 h-32 md:w-40 md:h-40 lg:w-48 lg:h-48">
-      <Image
-        src="/logo.png"
-        alt="CEV Educacional Logo"
-        fill
-        className="object-contain drop-shadow-lg"
-        sizes="(max-width: 768px) 128px, (max-width: 1024px) 160px, 192px"
-      />
-    </div>
-  </div>
-);
 
 export default function CountownSection() {
   const [time, setTime] = useState<TimeLeft>(calculateTimeLeft(TARGET_DATE));
@@ -118,8 +104,8 @@ export default function CountownSection() {
               GARANTIR MINHA VAGA
             </Button>
           </div>
-          <div className="flex flex-col justify-center space-y-8">
-            <div className="flex flex-col sm:flex-row items-center gap-2 group font-montserrat lg:ml-25 text-base text-white sm:text-lg md:text-xl">
+          <div className="flex flex-col items-center justify-center space-y-8">
+            <div className="flex flex-col sm:flex-row items-center gap-2 group font-montserrat text-base text-white sm:text-lg md:text-xl">
               <p className="font-montserrat text-sm font-medium uppercase tracking-wide text-white sm:text-base md:text-lg">
                 PSICOLOGIA BASEADA EM EVIDÊNCIAS |
               </p>
@@ -133,7 +119,7 @@ export default function CountownSection() {
               </Link>
             </div>
 
-            <LogoSection />
+            <CEVLogo className="size-40 md:size-50 lg:size-60" />
           </div>
         </div>
       </div>

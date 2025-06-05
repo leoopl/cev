@@ -14,7 +14,7 @@
   }
 
   body {
-    font-family: "Poppins", sans-serif;
+    font-family: var(--font-poppins), sans-serif;
     background: linear-gradient(135deg, #3b0b80 0%, #770b80 100%);
     min-height: 100vh;
     overflow-x: hidden;
@@ -160,6 +160,19 @@
     outline-offset: 2px;
   }
 
+  /* Enhanced mobile carousel */
+  .carousel-container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    overflow-x: hidden; /* Prevent horizontal scroll */
+  }
+
+  @media (max-width: 640px) {
+    .carousel-item {
+      min-width: calc(100vw - 2rem); /* Full width minus padding */
+    }
+  }
+
   /* Responsive typography */
   @media (max-width: 768px) {
     .hero-number {
@@ -168,6 +181,7 @@
   }
 
   /* Loading animation for fonts */
+  /*
   .font-loading {
     visibility: hidden;
   }
@@ -175,4 +189,5 @@
   .fonts-loaded .font-loading {
     visibility: visible;
   }
+  */
 }
