@@ -72,7 +72,7 @@ const speakers: SpeakerData[] = [
   },
   {
     id: "7",
-    name: "Dr. Leonardo Naves",
+    name: "Leonardo Naves",
     state: "Alagoas",
     description:
       "Psicólogo Clínico com vasta experiência em Terapia Cognitivo-Comportamental e Neuropsicologia, focado no tratamento de transtornos de ansiedade, depressão e no desenvolvimento de estratégias para o bem-estar emocional.",
@@ -80,11 +80,11 @@ const speakers: SpeakerData[] = [
   },
   {
     id: "8",
-    name: "Dra. Isabella Parros",
+    name: "Isabella Parros",
     state: "São Paulo",
     description:
-      "Terapeuta de Casais e Famílias, Mestre em Psicologia Clínica. Especialista em comunicação afetiva, resolução de conflitos e fortalecimento de vínculos familiares e conjugais, promovendo relações mais saudáveis.",
-    image: "/wilson.png",
+      "Psicóloga Clínica Especialista em TCC Adulto, Adolescente e Criança ITC Brasil e CTC Veda Terapia do Esquema - Wainer",
+    image: "/parros.png",
   },
 ];
 

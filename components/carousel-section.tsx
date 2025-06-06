@@ -51,7 +51,7 @@ const CarouselCard = ({
         <div className="relative w-full h-52 md:h-60 overflow-hidden shadow-xl ring-2 ring-white/30 rounded-lg">
           <Image
             src={img}
-            alt={title}
+            alt={img}
             fill
             className="object-cover object-center"
             sizes="(max-width: 768px) 100vw, 100vw"
