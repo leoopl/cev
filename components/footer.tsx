@@ -28,7 +28,7 @@ const Footer: React.FC = () => {
           <div className="mb-4 flex sm:mb-0">
             <Link
               className="flex font-poppins text-sm text-white fill-white items-center gap-x-2 hover:text-blue-500 hover:fill-blue-500"
-              href="https://github.com/leoopl/Okay"
+              href="https://www.linkedin.com/in/leopl/"
             >
               Leonardo Leite.
               <LinkedIn />
