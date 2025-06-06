@@ -72,57 +72,213 @@ export default function CarouselSection() {
   const carouselItemsData = [
     {
       title: "Conexão Genuína",
-      img: "/wilson.png",
+      img: "/cg.png",
       description:
         "Uma atmosfera acolhedora com AFETO REAL, conexões, networking e experiências de reparação emocional.",
     },
     {
       title: "Prática REAL",
-      img: "/wilson.png",
+      img: "/pr.png",
       description:
         "Passo a passo, Role Plays, vivências, CASOS REAIS e prática.",
     },
     {
       title: "Generosidade",
-      img: "/wilson.png",
+      img: "/ge.png",
       description:
         "Generosidade na transmissão do conhecimento é a nossa marca: sem medo de compartilhar!",
     },
     {
       title: "Visão Inovadora",
-      img: "/wilson.png",
+      img: "/vi.png",
       description:
         "Abordagens contemporâneas e eficazes para os desafios da psicologia moderna.",
     },
     {
+      title: "Conexão Genuína",
+      img: "/cg1.png",
+      description:
+        "Uma atmosfera acolhedora com AFETO REAL, conexões, networking e experiências de reparação emocional.",
+    },
+    {
+      title: "Prática REAL",
+      img: "/pr1.png",
+      description:
+        "Passo a passo, Role Plays, vivências, CASOS REAIS e prática.",
+    },
+    {
+      title: "Generosidade",
+      img: "/ge1.png",
+      description:
+        "Generosidade na transmissão do conhecimento é a nossa marca: sem medo de compartilhar!",
+    },
+    {
       title: "Visão Inovadora",
-      img: "/wilson.png",
+      img: "/vi1.png",
       description:
         "Abordagens contemporâneas e eficazes para os desafios da psicologia moderna.",
     },
     {
+      title: "Conexão Genuína",
+      img: "/cg2.png",
+      description:
+        "Uma atmosfera acolhedora com AFETO REAL, conexões, networking e experiências de reparação emocional.",
+    },
+    {
+      title: "Prática REAL",
+      img: "/pr2.png",
+      description:
+        "Passo a passo, Role Plays, vivências, CASOS REAIS e prática.",
+    },
+    {
+      title: "Generosidade",
+      img: "/ge2.png",
+      description:
+        "Generosidade na transmissão do conhecimento é a nossa marca: sem medo de compartilhar!",
+    },
+    {
       title: "Visão Inovadora",
-      img: "/wilson.png",
+      img: "/vi2.png",
       description:
         "Abordagens contemporâneas e eficazes para os desafios da psicologia moderna.",
     },
     {
+      title: "Conexão Genuína",
+      img: "/cg3.png",
+      description:
+        "Uma atmosfera acolhedora com AFETO REAL, conexões, networking e experiências de reparação emocional.",
+    },
+    {
+      title: "Prática REAL",
+      img: "/pr3.png",
+      description:
+        "Passo a passo, Role Plays, vivências, CASOS REAIS e prática.",
+    },
+    {
+      title: "Generosidade",
+      img: "/ge3.png",
+      description:
+        "Generosidade na transmissão do conhecimento é a nossa marca: sem medo de compartilhar!",
+    },
+    {
       title: "Visão Inovadora",
-      img: "/wilson.png",
+      img: "/vi3.png",
       description:
         "Abordagens contemporâneas e eficazes para os desafios da psicologia moderna.",
     },
     {
+      title: "Conexão Genuína",
+      img: "/cg4.png",
+      description:
+        "Uma atmosfera acolhedora com AFETO REAL, conexões, networking e experiências de reparação emocional.",
+    },
+    {
+      title: "Prática REAL",
+      img: "/pr4.png",
+      description:
+        "Passo a passo, Role Plays, vivências, CASOS REAIS e prática.",
+    },
+    {
+      title: "Generosidade",
+      img: "/ge4.png",
+      description:
+        "Generosidade na transmissão do conhecimento é a nossa marca: sem medo de compartilhar!",
+    },
+    {
       title: "Visão Inovadora",
-      img: "/wilson.png",
+      img: "/vi4.png",
       description:
         "Abordagens contemporâneas e eficazes para os desafios da psicologia moderna.",
     },
     {
+      title: "Conexão Genuína",
+      img: "/cg5.png",
+      description:
+        "Uma atmosfera acolhedora com AFETO REAL, conexões, networking e experiências de reparação emocional.",
+    },
+    {
+      title: "Prática REAL",
+      img: "/pr5.png",
+      description:
+        "Passo a passo, Role Plays, vivências, CASOS REAIS e prática.",
+    },
+    {
+      title: "Generosidade",
+      img: "/ge5.png",
+      description:
+        "Generosidade na transmissão do conhecimento é a nossa marca: sem medo de compartilhar!",
+    },
+    {
       title: "Visão Inovadora",
-      img: "/wilson.png",
+      img: "/vi5.png",
       description:
         "Abordagens contemporâneas e eficazes para os desafios da psicologia moderna.",
+    },
+    {
+      title: "Conexão Genuína",
+      img: "/cg.png",
+      description:
+        "Uma atmosfera acolhedora com AFETO REAL, conexões, networking e experiências de reparação emocional.",
+    },
+    {
+      title: "Prática REAL",
+      img: "/pr6.png",
+      description:
+        "Passo a passo, Role Plays, vivências, CASOS REAIS e prática.",
+    },
+    {
+      title: "Generosidade",
+      img: "/ge6.png",
+      description:
+        "Generosidade na transmissão do conhecimento é a nossa marca: sem medo de compartilhar!",
+    },
+    {
+      title: "Visão Inovadora",
+      img: "/vi6.png",
+      description:
+        "Abordagens contemporâneas e eficazes para os desafios da psicologia moderna.",
+    },
+    {
+      title: "Conexão Genuína",
+      img: "/cg1.png",
+      description:
+        "Uma atmosfera acolhedora com AFETO REAL, conexões, networking e experiências de reparação emocional.",
+    },
+    {
+      title: "Prática REAL",
+      img: "/pr7.png",
+      description:
+        "Passo a passo, Role Plays, vivências, CASOS REAIS e prática.",
+    },
+    {
+      title: "Generosidade",
+      img: "/ge7.png",
+      description:
+        "Generosidade na transmissão do conhecimento é a nossa marca: sem medo de compartilhar!",
+    },
+    {
+      title: "Visão Inovadora",
+      img: "/vi7.png",
+      description:
+        "Abordagens contemporâneas e eficazes para os desafios da psicologia moderna.",
+    },
+    {
+      title: "Conexão Genuína",
+      img: "/cg2.png",
+      description:
+        "Uma atmosfera acolhedora com AFETO REAL, conexões, networking e experiências de reparação emocional.",
+    },
+    {
+      title: "Prática REAL",
+      img: "/pr8.png",
+      description:
+        "Passo a passo, Role Plays, vivências, CASOS REAIS e prática.",
+    },
+    {
+      title: "Generosidade",
+      img: "/ge8.png",
+      description:
+        "Generosidade na transmissão do conhecimento é a nossa marca: sem medo de compartilhar!",
     },
   ];
   return (

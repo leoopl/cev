@@ -28,7 +28,7 @@ export function HeroSection() {
                 @ceveducacional
               </Link>
             </div>
-            <h2 className="font-poppins text-center mt-20 sm:mt-0 text-[2.8rem] font-extrabold leading-tight text-[#5bccb8] sm:text-5xl md:text-7xl lg:text-8xl">
+            <h2 className="font-poppins text-center mt-5 sm:mt-0 text-[2.8rem] font-extrabold leading-tight text-[#5bccb8] sm:text-5xl md:text-7xl lg:text-8xl">
               CONGRESSO CEV{" "}
               <span className="text-white hidden sm:inline">| MCZ</span>
             </h2>
@@ -57,7 +57,13 @@ export function HeroSection() {
 
             {/* Button */}
             <Button className="rounded-lg bg-[#0b6380] sm:mt-11 text-base font-bold text-white transition-all duration-300 hover:scale-105 hover:shadow-2xl sm:px-10 sm:py-5 sm:text-lg md:px-12 md:py-6 md:text-xl">
-              QUERO PARTICIPAR
+              <Link
+                href={"https://pay.kiwify.com.br/mOqGnCZ"}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                QUERO PARTICIPAR
+              </Link>
             </Button>
           </div>
         </div>

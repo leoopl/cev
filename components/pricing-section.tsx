@@ -14,10 +14,29 @@ interface PricingPhoto {
 }
 
 const pricingPhotos: PricingPhoto[] = [
-  { src: "/pricing.png", alt: "Oferta especial para duplas" },
-  { src: "/pricing.png", alt: "Desconto exclusivo" },
-  { src: "/pricing.png", alt: "Promoção limitada" },
-  { src: "/pricing.png", alt: "Melhor custo-benefício" },
+  { src: "/ff.png", alt: "Fotos Finais" },
+  { src: "/ff1.png", alt: "Fotos Finais 1" },
+  { src: "/ff2.png", alt: "Fotos Finais 2" },
+  { src: "/ff3.png", alt: "Fotos Finais 3" },
+  { src: "/ff4.png", alt: "Fotos Finais 4" },
+  { src: "/ff5.png", alt: "Fotos Finais 5" },
+  { src: "/ff6.png", alt: "Fotos Finais 6" },
+  { src: "/ff7.png", alt: "Fotos Finais 7" },
+  { src: "/ff8.png", alt: "Fotos Finais 8" },
+  { src: "/ff9.png", alt: "Fotos Finais 9" },
+  { src: "/ff10.png", alt: "Fotos Finais 10" },
+  { src: "/ff11.png", alt: "Fotos Finais 11" },
+  { src: "/ff12.png", alt: "Fotos Finais 12" },
+  { src: "/ff13.png", alt: "Fotos Finais 13" },
+  { src: "/ff14.png", alt: "Fotos Finais 14" },
+  { src: "/ff15.png", alt: "Fotos Finais 15" },
+  { src: "/ff16.png", alt: "Fotos Finais 16" },
+  { src: "/ff17.png", alt: "Fotos Finais 17" },
+  { src: "/ff18.png", alt: "Fotos Finais 18" },
+  { src: "/ff19.png", alt: "Fotos Finais 19" },
+  { src: "/ff20.png", alt: "Fotos Finais 20" },
+  // { src: "/ff21.png", alt: "Fotos Finais 21" },
+  { src: "/ff22.png", alt: "Fotos Finais 22" },
 ];
 
 const PricingCarousel = () => (
@@ -85,24 +104,27 @@ const PricingFeatures = () => {
 
 const PricingCard = () => (
   <div className="relative h-full bg-gradient-to-br from-white/5 to-white/10 backdrop-blur-sm rounded-2xl p-8 md:p-10 border border-white/20 shadow-2xl">
-    <div className="text-center space-y-15">
+    <div className="text-center space-y-10">
       {/* Title */}
       <div className="space-y-2">
         <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold font-poppins text-[#5bccb8] leading-tight">
           Oferta Única
         </h2>
         <div className="flex items-center justify-center gap-2 text-white/80">
-          <Users className="w-5 h-5" />
+          <Users className="size-5" />
           <span className="text-lg md:text-xl">Você + um amigo</span>
         </div>
       </div>
 
-      {/* CEV Logo */}
-      <div className="flex justify-center">
-        <div className="w-16 h-16 md:w-20 md:h-20 bg-white/10 backdrop-blur-sm rounded-xl flex items-center justify-center border border-white/20 shadow-lg">
-          <span className="text-[#5bccb8] font-bold text-lg md:text-xl">
-            CEV
-          </span>
+      <div className="relative flex items-center justify-center">
+        <div className="size-40 md:size-50 lg:size-50 overflow-hidden">
+          <Image
+            src={"/pricing.png"}
+            alt="Pricing Image"
+            fill
+            className="object-contain"
+            sizes="(max-width: 768px) 90vw, (max-width: 1024px) 45vw, 600px"
+          />
         </div>
       </div>
 
@@ -131,7 +153,13 @@ const PricingCard = () => (
         size="lg"
         className="w-full bg-[#ad6ca5] text-white font-bold text-lg md:text-xl py-4 md:py-6 rounded-xl transition-all duration-300 hover:scale-105 hover:shadow-2xl shadow-lg"
       >
-        GARANTIR MINHA VAGA
+        <Link
+          href={"https://pay.kiwify.com.br/mOqGnCZ"}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          RESERVAR MINHA VAGA
+        </Link>
       </Button>
 
       <p className="text-white/60 text-xs md:text-sm">

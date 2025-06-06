@@ -101,7 +101,13 @@ export default function CountownSection() {
               size="lg"
               className="w-full bg-[#ad6ca5] text-white font-bold text-lg md:text-xl py-4 md:py-6 rounded-xl transition-all duration-300 hover:scale-105 hover:shadow-2xl shadow-lg"
             >
-              GARANTIR MINHA VAGA
+              <Link
+                href={"https://pay.kiwify.com.br/mOqGnCZ"}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                GARANTIR MINHA VAGA
+              </Link>
             </Button>
           </div>
           <div className="flex flex-col items-center justify-center space-y-8">

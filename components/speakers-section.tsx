@@ -56,7 +56,7 @@ const speakers: SpeakerData[] = [
   },
   {
     id: "5",
-    name: "Dra. Cris Manfro",
+    name: "Cris Manfro",
     state: "Rio Grande do Sul",
     description:
       "Cris Manfro é psicóloga, terapeuta de casais e mentora de relacionamentos. Já atuou como supervisora em diversos cursos de especialização. E hoje é a maior referência do país em Crises no Casamento. Nos últimos 35 anos, ela orientou centenas de casais a superarem graves crises no casamento por diversos motivos, como por exemplo: traição, insegurança e ciúmes, falta de diálogo, falta de conexão, brigas, rotina, filhos, conflitos de família e problemas financeiros. Cris se considera uma fiel defensora dos relacionamentos. E acredita que pequenos ajustes nas crenças e rotinas do casal podem ser responsáveis por mudanças incríveis.",
@@ -64,7 +64,7 @@ const speakers: SpeakerData[] = [
   },
   {
     id: "6",
-    name: "Dra. Amélia Guimarães",
+    name: "Amélia Guimarães",
     state: "Alagoas",
     description:
       "Coordenadora do CEV Educacional, treinadora de psicólogos em todo o Brasil. Autora de 'Psicologia Baseada em Evidências para Relacionamentos', coautora da ferramenta de Habilidades em DBT. Core Skills em EFT para Casais pelo ICEEFT no Canadá. Mestrado em Psicologia da Saúde em andamento.",
